@@ -3,7 +3,7 @@
 
 from flask import Flask, render_template, request,Response
 import os
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import recog
 from client4 import Vidcamera
 from own_pc import Vidcamera1
